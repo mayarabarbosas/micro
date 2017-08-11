@@ -1,0 +1,26 @@
+1 - O que são sistemas embarcados?
+São sistemas computacionais completos hardware e software facilmente disponíveis para utilização. 
+Com CI feitos sob medida para aplicação.
+
+2 - O que são sistemas microprocessados?
+São circuitos integrados, um circuito multifuncional que realiza várias intrucões.
+
+3 - Apresente aplicações de sistemas embarcados:
+(a) para a indústria automotiva
+airbag, portas, janelas, luzes
+
+(b) para eletrodomésticos
+fogão, geladeira, maquina de café, maquina de lavar roupa
+
+(c) para automação industrial
+controle de processos, controle de máquinas
+
+4 - Cite arquiteturas possíveis e a diferença entre elas.
+PIC's, Intel 8051, ARM9: Permite leitura simultânea de dados e do programa, permite barramento de dados e programa separadamente otimizados, guarda dados constantes na memoria de programa, o que requer instruções específicas.
+MSP430, Freescale HCS08, ARM7: também conhecida como arquitetura Princeton. Mais simples que a arquitetura Harvard e menos 
+eficiente.
+
+5 - Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+Mas simples e de fácil acesso que atende a todas as especificações no curso, além de ser pequena e eficiente.
+Permite aritmética com os valores diretamente da memória e registradores podem ser usados para diferentes sub-rotinas,
+endereços e variáveis locais.
