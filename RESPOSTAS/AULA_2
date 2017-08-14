@@ -1,0 +1,28 @@
+
+1 - O Barramento de Dados transmite dados entre as unidades. Portanto, um microprocessador de 8 bits requer 
+um barramento de dados de 8 linhas para transmitir dados de 8 bits em paralelo. Semelhantemente, um microprocessador 
+de 64 bits necessita de um barramento de dados de 64 linhas para transmitir dados de 64 bits em paralelo. 
+Se o barramento de dados para um microprocessador de 64 bits fosse formado por 8 linhas, seriam necessárias 
+oito transmissões sucessivas, tornando mais lento o sistema. O Barramento de Dados é bi-direcional, isto é, 
+pode transmitir em ambas as direções.O Barramento de Endereço  é usado para selecionar a origem ou destino de sinais 
+transmitidos num dos outros barramentos ou numa de suas linhas. Ele conduz endereços. Uma função típica do Barramento
+de Endereço é selecionar um registrador num dos dispositivos do sistema que é usado como a fonte ou o destino do dado.
+O Barramento de Endereço do nosso computador padrão tem 16 linhas e pode endereçar 216 (64 K) dispositivos (1K= 1024, ou 210 , 
+no jargão de computação).
+
+2- A memória RAM é aquela que permite a gravação e a regravação dos dados, no entanto, se o computador for desligado,
+por exemplo, perde as informações registradas. Já a memória ROM  permite a gravação de dados uma única vez, não sendo possível 
+apagar ou editar nenhuma informação, somente acessar a mesma
+
+3- a) A variavel i é ROM permite a gravação de dados uma única vez
+b) É RAM pois permite a gravação e a regravação dos dados
+
+4) Arquitetura tipo Harvard: Caminhos de dados e de instrução distintos, dessa forma, seus componentes internos também
+estão dispostos em lugares distintos, o que a torna mais rápida porem mais complexa.
+Von Neumann: é processada uma única informação por vez, visto que nessa tecnologia, execução e dados percorrem o mesmo barramento,
+o que torna a arquitetura mais simples porém torna o processo lento em relação à arquitetura Harvard.
+
+5) a) DCBA1508x0 b) 0x8051ABCD
+
+6) Uma das possibilidades seria colocar o número x no registrador. Depois somamos ao registrador x o número x. O resultado estará no
+registrador x em assembly.
